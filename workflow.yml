@@ -36,7 +36,7 @@ notify_on_failure:
       username: ${{ secrets.SMTP_USERNAME }}
       password: ${{ secrets.SMTP_PASSWORD }}
       subject: GitHub Actions CI Failed 🚨
-      to: your.email@example.com
+      to: info@bibekbhandari.com.np
       from: github-actions@example.com
       body: |
         CI job failed on repository ${{ github.repository }}.
